@@ -1,0 +1,41 @@
+.body{ margin-top: 5%; }
+
+.header { position: fixed; left: 0%; top: 0%; width: 180px; height: 100%; background-color: white; display: inline;}
+
+.menu{ margin-top: 15%; margin-left: 15%; width: 120px; background-color: white}
+
+.logo{ margin-top: 15%; margin-left: 15%;}
+
+
+.about{ margin-left: 200px; width: 85%; height: 100%; background-color: white; float: left; }
+
+.portfolio{ margin-left: 200px; width: 85%; height: 100%; background-color: white; float: left; }
+
+
+.footer{ width: 100%; background-color: black; height: 16px; display: block; position: fixed; bottom: 45px; left: 200px; }
+
+
+
+a { margin-top: 9px; margin-bottom: 9px; text-decoration: none; color: black; font-family: sans-serif; font-size: 18px; font-weight: bold; display: block; }
+
+a:hover { background-color: yellow; width: 150px; background-position: bottom -10%; }
+
+
+
+.p1{ font-family: sans-serif; font-size: 14; color: black; display: block; position: fixed; bottom: 15px; left: 200px; }
+
+h2{ font-family: arial; font-size: 64; color: yellow; text-align: left; }
+
+p{ font-family: sans-serif; font-size: 20; color: #b6b6b6; line-height: 1.4; }
+
+h1{ font-family: sans-serif; font-weight: bold; color: black; }
+
+td{ height: 200px; width:200px; padding: 10%;}
+
+
+
+.box{ width: 240px; height: 240px; background-color: blue; display: inline-block; margin-right: 2%; margin-top: 2%; }
+
+.box2{ width: 240px; height: 60px; background-color: white; margin-top: 240px; }
+
+h3{ font-family: sans-serif; font-size: 16; color: #b6b6b6; margin-top: 10px; text-align: center; }
