@@ -1,18 +1,22 @@
-.body{ margin-top: 5%; }
+body { width: 300%; overflow-x: scroll; overflow-y: hidden; }
 
-.header { position: fixed; left: 0%; top: 0%; width: 180px; height: 100%; background-color: white; display: inline;}
+.header { position: fixed; left: 0%; top: 0%; width: 180px; height: 100%; background: rgba(255, 255, 255, 0.8);; display: inline;}
 
-.menu{ margin-top: 15%; margin-left: 15%; width: 120px; background-color: white}
+.menu{ margin-top: 15%; margin-left: 15%; width: 120px; }
 
 .logo{ margin-top: 15%; margin-left: 15%;}
 
 
-.about{ margin-left: 200px; width: 85%; height: 100%; background-color: white; float: left; }
+.about{ margin-left: 200px; width: 28%; height: 100%; background-color: white; float: left; display: inline; }
 
-.portfolio{ margin-left: 200px; width: 85%; height: 100%; background-color: white; float: left; }
+.preview{ margin-left: 200px; width: 28%; height: 100%; background-color: white; float: left; display: inline; }
+
+.portfolio{ margin-left: 200px; width: 100%; height: 100%; background-color: white; float: left; display: inline; }
+
+.text{ width:60%; }
 
 
-.footer{ width: 100%; background-color: black; height: 16px; display: block; position: fixed; bottom: 45px; left: 200px; }
+.footer{ width: 4000px; background-color: black; height: 16px; margin-left: 190px; position: fixed; bottom: 45px; }
 
 
 
@@ -30,7 +34,7 @@ p{ font-family: sans-serif; font-size: 20; color: #b6b6b6; line-height: 1.4; }
 
 h1{ font-family: sans-serif; font-weight: bold; color: black; }
 
-td{ height: 200px; width:200px; padding: 10%;}
+td{ height: 200px; width:200px; padding: 10%; }
 
 
 
@@ -42,4 +46,4 @@ h3{ font-family: sans-serif; font-size: 14; color: #b6b6b6; margin-top: 10px; te
 
 
 
-.more{ float: right; height: 100px; width: 100px; background-color: none; }
+.more{ float: right; height: 100px; width: 100px; display: block; }
