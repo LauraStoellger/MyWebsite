@@ -3,6 +3,11 @@
 <head>
   <meta charset="utf-8">
   <link href="css/stylesheet.css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/stylesheet.fonts.css" rel="stylesheet" media="screen,projection"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <title>Laura Stoellger</title>
 </head>
 
@@ -10,61 +15,60 @@
 
     <!--Menü & Logo-->
     <div class="header">
-      <div class="logo"><img src="images/logo-01.svg" class="image" width="100px"></div>
-      <div class="menu">
-        <a href="#top">HOME</a>
-        <a href="///Users/laurastoellger/Sites/HTW/MyWebsite/Portfolio.html">PORTFOLIO</a>
-        <a href="file:///Users/laurastoellger/Sites/HTW/MyWebsite/About.html">ABOUT ME</a>
-        <a href="file:///Users/laurastoellger/Sites/HTW/MyWebsite/About.html">CONTACT</a>
-      </div>
+      <div class="logo"><a href="#home"><img src="images/logo-01.svg" width="100px"></a></div>
+      <nav class="menu">
+        <a href="#home">HOME</a>
+        <a href="file:///Users/laurastoellger/Sites/HTW/MyWebsite/Portfolio.html">PORTFOLIO</a>
+        <a href="#about">ABOUT ME</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
     </div>
 
     <!--Inhalt-->
     <div class="preview">
 
       <div class="text">
-      <h1>HI.</h1>
-
+      <h1 id="home">HI.</h1>
       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
         voluptua. </p>
       </div>
 
+      <!--Tabelle Preview-->
+      <ul>
+        <li>
         <div class="box">
-          <img src="images/P1.jpg" alt=""/>
-          <div class="box2">
-            <h3>
-              P1 OFFICES
-            </h3>
-          </div>
+          <a href="file:///Users/laurastoellger/Sites/HTW/MyWebsite/p1.html">
+            <img src="images/P1.jpg" alt="" class="box-img"/>
+          </a>
         </div>
-
+        <h3>P1 OFFICES</h3>
+        </li>
+        <li>
         <div class="box">
-          <img src="images/KSW.jpg" alt=""/>
-          <div class="box2">
-            <h3>
-              KAMPFSPORTWELT
-            </h3>
-          </div>
+          <a href="#">
+            <img src="images/KSW.jpg" alt=""/>
+          </a>
         </div>
-
+        <h3>KAMPFSPORTWELT</h3>
+        </li>
+        <li>
         <div class="box">
-          <img src="images/stilbegeistert.jpg" alt=""/>
-          <div class="box2">
-            <h3>
-              STILBEGEISTERT
-            </h3>
-          </div>
+          <a href="#">
+            <img src="images/stilbegeistert.jpg" alt=""/>
+          </a>
         </div>
-
+        <h3>STILBEGEISTERT</h3>
+        </li>
+        <li>
         <div class="box">
-          <img src="images/herbathek.jpg" alt=""/>
-          <div class="box2">
-            <h3>
-              HERBATHEK
-            </h3>
-          </div>
+          <a href="#">
+            <img src="images/herbathek.jpg" alt=""/>
+          </a>
         </div>
+        <h3>HERBATHEK</h3>
+        </li>
+      </ul>
 
         <div class="more">
           <a href="file:///Users/laurastoellger/Sites/HTW/MyWebsite/Portfolio.html"> <class="more"> <img src="images/arrow-01.svg" alt="arrow: go portfolio"/> </a>
@@ -77,7 +81,7 @@
       <div class="about">
 
         <div class="text">
-          <h1>ABOUT ME.</h1>
+          <h1 id="about">ABOUT ME.</h1>
 
           <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
             eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
@@ -95,12 +99,25 @@
       </div>
 
 
+      <div class="contact">
+        <div class="text">
+          <h1 id="contact">CONTACT.</h1>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+          <ul class="fa-ul">
+            <li><i class="fa-li fa fa-envelope-o fa-lg"></i>laura.stoellger@gmail.com</li>
+            <li><i class="fa-li fa fa-phone fa-lg"></i>01573 3280973</li>
+          </ul>
+        </div>
+      </div>
+
+
     <!--Footer-->
       <div class="footer">
       </div>
 
         <div class="p1">
-          <p1>All rights reserved // laura.stoellger@gmail.com</p1>
+          <p1>All rights reserved // Laura Stoellger //</p1>
+          <a href="#">Impressum</a>
         </div>
 
 
